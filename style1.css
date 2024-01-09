@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 15vh;
+    background-color: darkblue;
+    display: grid;
+    grid-template-rows: 15vh;
+    grid-template-columns: 0.3fr 4fr 1fr;
+    /* place-content: center; */
+    position: relative;
+    z-index: 1;
+}
+.top img{
+    height: 90px;
+    padding: 5PX;
+}
+.top span{
+    color: white;
+    /* text-align: center; */
+    font-size: 50px;
+    padding: 20px;
+    
+}
+.IITR{
+  justify-self: end;
+}
+.middle{
+    background-color: rgb(52, 114, 215);
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    padding-top: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+
+}
+.middle img{
+    border: 2px solid white;
+    height: 150px;
+}
+.bottom{
+    position: relative;
+    z-index: 1;
+    height: 50vh;
+    width: 60vw;
+    background-color:white;
+    margin: auto;
+    top: 30vh;
+    border-radius: 10px;
+    box-shadow: -4px 3px 18px 0px #3f3838;
+}
+.bottom p{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.box{
+    display: grid;
+    grid-template-areas: "un en"
+                        "pw k" ;
+    gap: 20px;
+    padding: 35px;
+}
+.item1{
+    grid-area: un;
+}
+.item2{
+    grid-area: en;
+}
+.item3{
+    grid-area: fn;
+}
+.item4{
+    grid-area: mn;
+}
+.item5{
+    grid-area: ei;
+}
+.item6{
+    grid-area: pw;
+}
+
+.item{
+    padding: 15px;
+    border-radius: 20px;
+}
+.Signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn a{
+    color: white;
+    background-color: darkblue;
+    padding: 10px 50px 10px 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    
+}
+.signin{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px;
+}
+.signin a{
+    text-decoration: none;
+    color: goldenrod;
+}
